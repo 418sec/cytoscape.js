@@ -44,6 +44,7 @@ export const setMap = options => {
       if( obj[ key ] == null ){
         obj[ key ] = {};
       }
+      
       if (key !== '__proto__' && key !== 'constructor' && key !== 'prototype') {
         obj = obj[ key ];
       }
